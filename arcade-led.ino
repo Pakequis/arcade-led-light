@@ -1,11 +1,17 @@
-#include <SoftPWM.h>
+/*
+  Arcade LED button effects
+  Rodrigo Feliciano
+  https://www.pakequis.com.br
+  youtube.com/pakequis
+
+*/
+
+#include <SoftPWM.h>  //library: https://github.com/bhagman/SoftPWM
 
 //LED OFF to ON time (ms)
 #define FADE_IN   50
 //LED ON to OFF time (ms)
 #define FADE_OUT  1000
-//LED Idle Time
-#define IDLE_TIME 10000 //milliseconds
 //Number of Buttons and LED Channels
 #define N_CHANNELS  8
 
