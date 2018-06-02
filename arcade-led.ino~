@@ -75,6 +75,8 @@ void setup()
     SoftPWMSetFadeTime(LED[i], FADE_IN, FADE_OUT);
     pinMode(b[i],INPUT);
   }
+
+  pinMode(0,INPUT);
 }
 
 void loop()
